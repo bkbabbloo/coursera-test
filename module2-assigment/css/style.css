@@ -1,0 +1,72 @@
+/** Style goes here */
+* {
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body {
+	/*color:#fff;
+	background-color: #fff000;*/
+	font-family: "Times New Roman", Times, Sans-serif;
+}
+
+h1 {
+	margin: 15px 10px 15px 10px;
+	/*padding-bottom: 15px;*/
+	text-align: center;
+}
+
+.tile {
+	position: relative;;
+	color:#fff;
+	font-size: 13px;
+	border:1px solid black;
+	background-color: #61122f;
+	padding:10px;
+	margin:10px;
+	height: 250px;
+}
+
+.categoryDesc {
+	font-size: 1.25em;
+	margin-top: 20px;
+}
+
+.categoryTitle {
+	position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    background-color: #f6b319;
+    text-align: center;
+    font-size: 1.75em;
+}
+
+@media (min-width: 992px) {
+	.col-md-4  {		
+		width:33.3333%;
+		float:left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-sm-6 {
+		width:50%;
+		/*height: 250px;*/
+		float:left;
+	}
+	.col-sm-12 {
+		width:100%;
+		/*height: 100%;*/
+		float:left;
+	}
+}
+
+@media  (max-width: 767px) {
+	.col-sm-12 {
+		width:100%;
+		/*height: 100%;*/
+		float:left;
+	}
+}
